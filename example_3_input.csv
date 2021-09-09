@@ -1,0 +1,4 @@
+Trade #, Nature, Underlying, Direction, Residual maturity, Notional, Market value
+1, Forward, (WTI) Crude Oil, Long, 9 months, 10000, -50
+2, Forward, (Brent) Crude Oil, 2 years, 20000, -30
+3, Forward, Silver, Long, 5 years, 10000, 100
