@@ -1,0 +1,8 @@
+example_4_input
+Trade #,Nature,Residual maturity,Base currency,Notional (thousands),Pay Leg (*),Receive Leg (*),Market value (thousands),Reference entity / index name,Rating reference entity,Position,
+1,Interest rate swap,10 years,USD,10000,Fixed,Floating,30,,,,
+2,Interest rate swap,4 years,USD,10000,Floating,Fixed,-20,,,,
+3,European swaption,1 into 10 years,EUR,5000,Floating,Fixed,50,,,,
+4,Single-name CDS,3 years,USD,10000,,,20,Firm A,AA,Protection buyer,
+5,Single-name CDS,6 years,EUR,10000,,,-40,Firm B,BBB,Protection seller,
+6,CDS index,5 years,USD,10000,,,0,CDX.IG 5y,Investment grade,Protection buyer,
