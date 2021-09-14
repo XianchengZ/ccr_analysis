@@ -1,0 +1,11 @@
+﻿Trade #,Nature,Residual maturity,Base currency,Notional (thousands),Pay Leg (*),Receive Leg (*),Market value (thousands),Reference entity / index name,Rating reference entity,Position,Option position,Underlying price,Strike price
+1,"Credit, single name",3 years,USD,3000,,,20,Firm A,A,Protection buyer,,,
+2,"Credit, single name",6 years,EUR,10000,,,-40,Firm B,CCC,Protection seller,,,
+3,"Credit, index",5 years,USD,6000,,,0,Firm C,SG,Protection buyer,,,
+4,Interest rate swap,10 years,USD,10000,Fixed,Floating,30,,,,,,
+5,Interest rate swap,4 years,USD,10000,Floating,Fixed,-20,,,,,,
+6,Interest rate swaption,1 into 10 years,EUR,5000,Floating,Fixed,50,,,,Bought,0.06,0.05
+7,Interest rate swaption,2 into 5 years,CAN,7500,Fixed,Floating,-25,,,,Sold,0.07,0.04
+8,Interest rate swap,0.75 years,USD,2000,Fixed,Floating,10,,,,,,
+9,"Credit, single name",5 years,USD,3500,,,-20,Firm A,A,Protection seller,,,
+10,"Credit, single name",4 years,USD,5000,,,25,Firm A,A,Protection buyer,,,
